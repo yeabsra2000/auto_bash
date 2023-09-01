@@ -43,6 +43,6 @@ elif [[ $distro == "Void" ]]; then
     sudo xbps-install -Syu
     sudo xbps-install -S "${tools[@]}"
 else
-    echo "The disto you are using is not supported yet": $distro"
+    echo "The disto you are using is not supported yet: $distro"
     exit 1
 fi
